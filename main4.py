@@ -7,7 +7,7 @@ from Json_to_xlsx import IndustryServiceProcessor
 
 # 配置OpenAI API密钥
 #https://dashscope.console.aliyun.com/apiKey 申请apiKey
-Api_key = "sk-670eb2aca49a4b4996d077ce2c7f795a"
+Api_key = ""
 client = OpenAI(
     api_key=Api_key,  # 如果您没有配置环境变量，请在此处用您的API Key进行替换
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",  # 填写DashScope SDK的base_url
